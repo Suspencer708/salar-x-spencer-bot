@@ -1,0 +1,10 @@
+{
+  "build": {
+    "builder": "NIXPACKS",
+    "buildCommand": "pip install pyTelegramBotAPI requests aiohttp"
+  },
+  "deploy": {
+    "startCommand": "python salar_bot.py",
+    "restartPolicyType": "ON_FAILURE"
+  }
+}
